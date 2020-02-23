@@ -1,0 +1,28 @@
+{
+    "name": "duiying/yii2-queue",
+
+    "type": "yii2-extension",
+
+    "description": "Async mailer for Yii Framework 2.0.",
+    "keywords": ["yii2", "redis", "async", "mailer"],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/duiying/yii2-queue/issues",
+        "source": "https://github.com/duiying/yii2-queue"
+    },
+    "authors": [
+        {
+            "name": "wangyaxian",
+            "email": "1822581649@qq.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-redis": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "duiying\\queue\\": "src"
+        }
+    }
+}
